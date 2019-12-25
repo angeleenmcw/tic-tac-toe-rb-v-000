@@ -53,9 +53,12 @@ def won?(board)
   end
 end
 
-def full(board)
+def full?(board)
   turn_count(board) == 9 
 end
+
+def draw?(board)
+  
   
   
   
