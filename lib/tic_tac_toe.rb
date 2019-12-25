@@ -24,7 +24,7 @@ def move (board, position, token)
   board(position) = token
 end
 
-
+def position_taken?
 
 board = [" ", " ", " ", " ", "X", " ", " ", " ", " "]
 display_board(board)
