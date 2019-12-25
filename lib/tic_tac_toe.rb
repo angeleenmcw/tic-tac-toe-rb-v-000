@@ -29,7 +29,7 @@ def position_taken?(board, position)
 end
 
 def valid_move?(board, position)
-  board(position).between(0,8) && board(position)
+  board(position).between(0,8) && position_taken?
   
 
 board = [" ", " ", " ", " ", "X", " ", " ", " ", " "]
