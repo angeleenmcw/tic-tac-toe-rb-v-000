@@ -62,7 +62,11 @@ def draw?(board)
 end
 
 def over?(board)
-  won?(board)
+  won?(board) || draw?(board)
+end
+
+def winner(board)
+  won?(board) 
   
   
   
