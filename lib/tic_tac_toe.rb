@@ -81,5 +81,6 @@ def winner(board)
    puts "Congradulations #{winner(board)}!"
  else 
    puts "Cats Game!"
-   
+ end
+ end
    
