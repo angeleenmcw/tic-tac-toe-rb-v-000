@@ -39,7 +39,7 @@ def turn(board)
 end
 
 def turn_count
-  turn(board)
+  board.count
   
 
   
