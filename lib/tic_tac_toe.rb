@@ -35,7 +35,7 @@ end
 def turn(board)
   puts "Choose a position (1-9)"
   position = input_to_index
-  valid_move(board, position) ? 
+  valid_move(board, position) ? move(board, position)
   
 
   
