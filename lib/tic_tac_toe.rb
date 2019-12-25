@@ -35,7 +35,11 @@ end
 def turn(board)
   puts "Choose a position (1-9)"
   position = input_to_index
-  valid_move(board, position) ? move(board, position, current_player(board)) : 
+  valid_move(board, position) ? move(board, position, current_player(board)) : turn(board)
+end
+
+def turn_count
+  turn(board)
   
 
   
