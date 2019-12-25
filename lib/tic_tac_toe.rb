@@ -41,6 +41,9 @@ end
 def turn_count
   board.count = (|position|, position_taken?(board, board.index(positoin)))
 end
+
+def current_player
+  
   
 
   
