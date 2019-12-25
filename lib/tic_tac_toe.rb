@@ -72,16 +72,5 @@ def winner(board)
   end
    !winning_combo.empty? ? board[winning_combo.first.first] : nil 
  end
-   
-   
-  
-  
-  
-
-  
-
-board = [" ", " ", " ", " ", "X", " ", " ", " ", " "]
-display_board(board)
-
-over do 
-  board
+ 
+ def play
