@@ -5,7 +5,8 @@ describe './lib/tic_tac_toe.rb' do
   describe 'WIN_COMBINATIONS' do
     it 'defines a constant WIN_COMBINATIONS with arrays for each win combination' do
       expect(WIN_COMBINATIONS.size).to eq(8)
-
+      
+     
   board = [" ", " ", " ", " ", "X", " ", " ", " ", " "]
 display_board(board)
     end
