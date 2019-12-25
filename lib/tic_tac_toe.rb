@@ -78,5 +78,6 @@ def winner(board)
    turn?(board)
  end
  if won?(board)
-   puts "Congradulations #{winner(board)}"
+   puts "Congradulations #{winner(board)}!"
+ else 
    
