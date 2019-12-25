@@ -67,7 +67,7 @@ end
 
 def winner(board)
  winning_combo = WIN_COMBINATIONS.select do |COMBO|
-     (board[COMBO[0]] == "X" && board[combo[1]] == "X" && board[combo[2]] == "X") ||
+     (board[COMBO[0]] == "X" && board[COMBO[1]] == "X" && board[combo[2]] == "X") ||
     (board[combo[0]] == "O" && board[combo[1]] == "O" && board[combo[2]] == "O")
   end
    
