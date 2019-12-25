@@ -21,7 +21,11 @@ def input_to_index
 end
 
 def move (board, position, token)
-  
+  board(position) = token
+end
+
+
+
 board = [" ", " ", " ", " ", "X", " ", " ", " ", " "]
 display_board(board)
 
