@@ -66,7 +66,7 @@ def over?(board)
 end
 
 def winner(board)
- WIN_COMBINATIONS 
+ winning_combo = WIN_COMBINATIONS do |COMBO|
   
   
   
