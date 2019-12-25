@@ -35,6 +35,7 @@ end
 def turn(board)
   puts "Choose a position (1-9)"
   position = input_to_index
+  move
   
 
   
