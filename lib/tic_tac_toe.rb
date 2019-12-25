@@ -73,4 +73,6 @@ def winner(board)
    !winning_combo.empty? ? board[winning_combo.first.first] : nil 
  end
  
- def play
+ def play(board)
+   until over(board)
+   
