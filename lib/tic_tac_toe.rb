@@ -54,7 +54,8 @@ def won?(board)
 end
 
 def full(board)
-  turn_count
+  turn_count(board) == 9 
+end
   
   
   
