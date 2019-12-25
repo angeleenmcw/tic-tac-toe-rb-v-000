@@ -33,7 +33,8 @@ def valid_move?(board, position)
 end
 
 def turn(board)
-  puts position = 1-9 
+  puts "Choose a position (1-9)"
+  position 
   
 
   
