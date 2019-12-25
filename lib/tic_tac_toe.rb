@@ -25,7 +25,7 @@ def move (board, position, token)
 end
 
 def position_taken?(board, position)
-  board(position)= "X" || board(position) = "O"
+  board(position) == "X" || board(position) == "O"
 end
 
 def valid_move?(board, position)
