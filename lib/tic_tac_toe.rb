@@ -39,7 +39,7 @@ def turn(board)
 end
 
 def turn_count
-  board.count = (|position|, 
+  board.count = (|position|, position_taken?
   
 
   
