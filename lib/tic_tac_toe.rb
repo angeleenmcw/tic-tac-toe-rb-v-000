@@ -70,7 +70,8 @@ def winner(board)
      (board[COMBO[0]] == "X" && board[COMBO[1]] == "X" && board[COMBO[2]] == "X") ||
     (board[COMBO[0]] == "O" && board[COMBO[1]] == "O" && board[COMBO[2]] == "O")
   end
-   !winning_combo.empty? ? board[winning_combo.first.first]
+   !winning_combo.empty? ? board[winning_combo.first.first] : nil 
+ end
    
    
   
