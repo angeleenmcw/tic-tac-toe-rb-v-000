@@ -82,4 +82,3 @@ def winner(board)
  else 
    puts "Cats Game!"
  end
- end
